@@ -1,0 +1,261 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kaushan+Script&family=Nunito:wght@300;400;600&family=Rowdies:wght@300&display=swap">
+    <title> Gym Supplements </title>
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />> -->
+    <!-- <link rel="stylesheet" href="font.css" > -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <section class="banner" id="banner">
+        <img src="{% static 'images/logo1.jfif' %}" class="logo">
+        <div class="banner-text">
+            <h1>Supplements Store</h1>
+            <p>buy Supplements to level up or maintain your fitness</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#testimonial">TESTIMONIALS</a></li>
+                <li><a href="#footer">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="{% static 'images/menu.png' %}" id="menu">
+    </div>
+    <!--Features-->
+
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-shield" style="font-size: 42px;"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Whey is the liquid remaining after milk has been curdled and strained.
+                            It is a byproduct of the manufacture of cheese or casein and has several commercial uses.
+                        </p>
+                    </div>
+                </div>
+                <h1>Testing</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-check-square-o" style="font-size: 42px;"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>FLASH is a total protein visual test that rapidly detects protein residues left on food
+                            contact surfaces after cleaning. Protein is a difficult food residue to remove. </p>
+                    </div>
+                </div>
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-inr" style="font-size: 42px;"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Top-Rated Supplier & Manufacturer Of High Quality & Private Label Multivitamin Supplements.
+                            High Performance solid Need High Performance Support. Power Your Brand With The Best Team.
+                            Free Label Printing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="{% static 'images/muscle.jpg' %}">
+            </div>
+        </div>
+    </section>
+    <!--  Service  -->
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Best</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="{% static 'images/machines.jfif' %}">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>GYM-MACHINES</h3>
+                    <hr>
+                    <p>From here you can get all gym machine & dumbells in low price.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="{% static 'images/gnc1.jpg' %}" style="width: 100%;">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>PROTEIN-SHAKER</h3>
+                    <hr>
+                    <p>If you want to buy shaker for you then you have to go to this site. you will get the best quality
+                        in low price</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="{% static 'images/pro.jpg' %}">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>SUPPLEMENTS</h3>
+                    <hr>
+                    <p>your most welcome here if you want pure and healty supplement & we are damn sure you won't get
+                        any price problem and health problem</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="{% static 'images/belt.jpg' %}">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>GYM TOOLS</h3>
+                    <hr>
+                    <p>if you are a gymer then you have to take care about you never get any kind of engury so to
+                        prevent any kind of engury take wrist belt for your safety</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonial-->
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="{% static 'images/img-1.jpg' %}">
+                    <div class="user-info">
+                        <h4>JOHN BRAYE <i class="fa fa-twitter"></i>
+                            <h4></h4>
+                            <small>@johnbraye</small>
+                    </div>
+                </div>
+                <p>A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the
+                    ancient Greek gymnasium.[1] They are commonly found in athletic and fitness centres, and as activity
+                    and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is
+                    often an area for indoor recreation. A gym may be open air as well. A gym is a place with a number
+                    of equipments and machines used by the people to do exercises.</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="{% static 'images/img-2.jpg' %}">
+                    <div class="user-info">
+                        <h4>DANI-PARLO<i class="fa fa-twitter"></i>
+                            <h4></h4>
+                            <small>@daniparlo</small>
+                    </div>
+                </div>
+                <p>A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the
+                    ancient Greek gymnasium.[1] They are commonly found in athletic and fitness centres, and as activity
+                    and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is
+                    often an area for indoor recreation. A gym may be open air as well. A gym is a place with a number
+                    of equipments and machines used by the people to do exercises.</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="{% static 'images/img-3.jpg' %}">
+                    <div class="user-info">
+                        <h4>KRISTNO-MARIE<i class="fa fa-twitter"></i>
+                            <h4></h4>
+                            <small>@kristinomarie</small>
+                    </div>
+                </div>
+                <p>A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the
+                    ancient Greek gymnasium.[1] They are commonly found in athletic and fitness centres, and as activity
+                    and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is
+                    often an area for indoor recreation. A gym may be open air as well. A gym is a place with a number
+                    of equipments and machines used by the people to do exercises.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--contact form-->
+    
+
+
+
+
+
+
+    <!----Footer---->
+    <section id="footer">
+        <img src="{% static 'images/footer1.png' %}" class="footer-img">
+        <div class="title-text">
+            <!--<p>CONTACT</p> -->
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="fa fa-clock"></i>Saturday and Sunday - 9am to 12pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>sector 33, Kalani-Nagar, Indore<i class="fa fa-location-pin"
+                        style="font-size: 42px;height: 10px;"></i></p>
+                <p>abc@examplegmail.com<i class="fa fa-paper-plane"></i></p>
+                <p>+91 9852147603 <i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+            <p>Copyright</p>
+        </div>
+
+    </section>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "{% static 'images/close.png' %}";
+    }
+    else{
+        sideNav.style.right = "-250px"
+        menu.src = "{% static 'images/menu.png' %}";
+
+    }
+}
+// All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true,
+});
+    </script>
+</body>
+
+</html>
